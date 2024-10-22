@@ -12,6 +12,11 @@ internal class Program
         carte1.AfficherDetails();
         carte2.AfficherDetails();
         carte3.AfficherDetails();
+        Paypal compte1 = new Paypal(email: "tchapi1@gmail.com", montant: 12500, description: "achat en ligne");
+        Paypal compte2 = new Paypal(email: "tchapi2@gmail.com", montant: 13500, description: "facture en ligne");
+        compte1.AfficherDetails();
+        compte2.AfficherDetails();   
+
 
 
 
