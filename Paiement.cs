@@ -13,7 +13,7 @@ namespace AppPaiements
         public string Description { get; set; }
 
         // creation du constructeur
-        public Paiement(int montant, string description)
+        public Paiement(double montant, string description)
         {
             Montant = montant;
             Description = description;
